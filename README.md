@@ -66,7 +66,6 @@ counter-todo/
 
 Because the JavaScript uses ES modules, you should run this with a local server (opening `index.html` directly with `file://` may block module imports in Chrome).
 
-### Option 1: Python (recommended, simplest)
 1. Open Terminal
 2. `cd` into the project folder:
    ```bash
