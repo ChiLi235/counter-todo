@@ -47,6 +47,7 @@ No database, no build step, no storage — the app starts fresh every time you r
 
 ## Project Structure
 
+```
 counter-todo/
 ├─ index.html
 ├─ styles.css
@@ -55,7 +56,7 @@ counter-todo/
     └─ modules/
         ├─ counter.js
         └─ todos.js
-
+```
 
 ## Run Locally
 
