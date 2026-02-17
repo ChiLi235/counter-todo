@@ -1,3 +1,7 @@
+## Screenshot
+
+![App screenshot](pic/screen_shot.png)
+
 # Minimal Counter + To-Do
 
 A minimal, black-and-white web app that includes:
