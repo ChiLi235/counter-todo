@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Counter + Todo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="row">
+      <!-- Counter -->
+      <section class="card" aria-label="Counter">
+        <h2 class="title">Counter</h2>
+
+        <div class="counterValue" id="count">0</div>
+
+        <div class="btnRow">
+          <button id="reset">Reset</button>
+          <button class="iconBtn" id="minus" aria-label="Minus">−</button>
+          <button class="iconBtn" id="plus" aria-label="Plus">+</button>
+        </div>
+
+        <div class="hint">Keyboard: <span class="key">+</span> / <span class="key">-</span></div>
+      </section>
+
+      <!-- Todo -->
+      <section class="card" aria-label="Todo List">
+        <h2 class="title">To do</h2>
+
+        <div class="todoTop">
+          <input id="todoInput" type="text" placeholder="Add a task and press Enter…" autocomplete="off" />
+          <button id="addTodo" class="miniBtn" aria-label="Add todo">Add</button>
+        </div>
+
+        <div class="todoList" id="todoList"></div>
+
+        <div class="divider"></div>
+        <div class="hint">
+          Checked items move to the bottom (archive). Uncheck to bring them back up.
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
